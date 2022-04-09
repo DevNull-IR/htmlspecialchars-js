@@ -5,7 +5,6 @@ const htmlspecialchars = (string) => {
                 htmlstr = htmlstr.replace('>','&gt;');
                 htmlstr = htmlstr.replace('<','&lt;');
             }
-            
-            
+
             return htmlstr;
         };
